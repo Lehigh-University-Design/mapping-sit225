@@ -16,22 +16,7 @@
       },
       "id": "304737361634f3beba395add2369ebef"
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "Name": "Ketchum",
-        "Description": "<p> The City of Ketchum is a municipality of about 2,750 inhabitants situated at an elevation of 1,784 m in the Wood River Valley of central Idaho, U.S. Founded during the area mining boom of the late nineteenth century, Ketchum’s economy now revolves largely around tourism focused on the region’s world-famous winter skiing conditions. The City also boasts an active arts and culture scene, and is increasingly seen as a regional retirement destination. </p>",
-        "Image": "images/Ketchum_Idaho.jpg"
-      },
-      "geometry": {
-        "coordinates": [
-          -114.364368,
-          43.6816
-        ],
-        "type": "Point"
-      },
-      "id": "49eed1b9cc8ff4fe42d2848093a6fd68"
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -63,6 +48,22 @@
         "type": "Point"
       },
       "id": "74429b6be562507e9caa1181b282c587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ketchum",
+        "Description": "<p> The City of Ketchum is a municipality of about 2,750 inhabitants situated at an elevation of 1,784 m in the Wood River Valley of central Idaho, U.S. Founded during the area mining boom of the late nineteenth century, Ketchum’s economy now revolves largely around tourism focused on the region’s world-famous winter skiing conditions. The City also boasts an active arts and culture scene, and is increasingly seen as a regional retirement destination. </p>",
+        "Image": "images/Ketchum_Idaho.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          -114.364368,
+          43.6816
+        ],
+        "type": "Point"
+      },
+      "id": "49eed1b9cc8ff4fe42d2848093a6fd68"
     },
     {
       "type": "Feature",
