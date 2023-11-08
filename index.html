@@ -104,31 +104,30 @@
 			 	//var pid = item
 
 			 	// header
-			 	if(p.properties.Title && p.properties.Image) {
+				 if(p.properties.Name && p.properties.Image) {
 			 		var alt_media = document.createElement("div");
 			 		alt_media.classList.add("alt-media");
 			 		var header_holder = document.createElement("div");
 			 		header_holder.classList.add("header-holder");
 			 		var header = document.createElement("h2");
-				 	var node = document.createTextNode(p.properties.Title);
+				 	var node = document.createTextNode(p.properties.Name);
 				 	header.appendChild(node);
-				 	div.appendChild(header);
-					header_holder.appendChild(header);
+				 	header_holder.appendChild(header);
 				 	alt_media.appendChild(header_holder);
 			 		var image_holder = document.createElement("div");
 			 		image_holder.classList.add("image-holder");
 				 	var img = document.createElement("img");
 			 		img.src = p.properties.Image;
-					 image_holder.appendChild(img);
+			 		image_holder.appendChild(img);
 			 		div.appendChild(alt_media);
 			 		alt_media.appendChild(image_holder);
 			 	} else {
 
 			 		// header
-				 	if(p.properties.Title) {
+				 	if(p.properties.Name) {
 					 	var header = document.createElement("h2");
 					 	//var node = document.createTextNode("Step "+pid);
-					 	var node = document.createTextNode(p.properties.Title);
+					 	var node = document.createTextNode(p.properties.Name);
 					 	header.appendChild(node);
 					 	div.appendChild(header);
 				 	}

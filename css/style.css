@@ -17,13 +17,19 @@ body {
   min-height: 1280px;
 }
 
-p,
 h1,
 h2,
 h3,
 h4,
 a {
   margin: 0;
+  font-weight: 400;
+}
+
+p{
+  font-size: 15px;
+  margin: 0;
+  padding: 0.75em;
   font-weight: 400;
 }
 
@@ -130,7 +136,7 @@ figure {
 
 figure p {
   text-align: center;
-  padding: 1rem;
+  padding: 0rem;
   position: absolute;
   z-index: 100;
   top: 50%;
@@ -138,7 +144,7 @@ figure p {
   -moz-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 900;
   color: #fff;
 }
@@ -190,7 +196,7 @@ figure p {
 }
 
 .step .description{
-  padding-top: .5em;
+  padding-top: 1em;
 }
 
 .step .description p {
@@ -241,10 +247,11 @@ figure p {
  
  .step .alt-media .header-holder h2 {
    background: transparent;
-   color: #000;
-   font-family: 'Roboto Slab', serif;
+   padding: 1em;
+   color: #fcf8dc;
+   font-family: 'proxima-nova', sans-serif;
    font-weight: 700;
-   font-size: 1.5em;
+   font-size: 1.75em;
    margin-top: 0;
    margin-bottom: 0;
  }
