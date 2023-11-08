@@ -5,7 +5,8 @@
       "properties": {
         "Name": "CRATERS OF THE MOON NATIONAL MONUMENT",
         "Description": "<p> Craters Of The Moon National Monument protects some 21,618 hectares of volcanic formations and lava flows on the northern edge of the Snake River Plain in south-central Idaho, U.S. A sequence of eruptions in the area from roughly 15,000 to 2,000 years ago resulted from rifting of the surface due to residual heat from the Yellowstone hotspot, thought to have been located under what is now Craters Of The Moon some 10 to 11 million years ago. Repeated lava flows raised the land elevation enough to expose it to prevailing southwesterly winds, helping to keep the area dry. As a result, there is very little vegetation on the lava fields, giving the area the sense of desolation. Upon signing his executive order creating the Monument in 1924, U.S. President Calvin Coolidge succinctly described it: “this area contains many curious and unusual phenomena of great educational value and has a weird and scenic landscape peculiar to itself.” </p>",
-        "Image": "images/Craters_of_the_Moon_National_Monument.jpg"
+        "Image": "images/Craters_of_the_Moon_National_Monument.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -21,7 +22,8 @@
       "properties": {
         "Name": "WATERTON-GLACIER INTERNATIONAL PEACE PARK",
         "Description": "<p> Waterton Lakes National Park in Alberta, Canada, and Glacier National Park in Montana, U.S., are collectively the first IDA International Dark Sky Parks spanning both sides of an international border. At a total of 4,606 km2 (1,138,167 acres), the parks share the distinction of being the world’s first International Peace Park (1932), two UNESCO Biosphere Reserves, and a single UNESCO World Heritage Site. According to UNESCO, the parks offer “outstanding scenery,” and are “exceptionally rich in plant and mammal species as well as prairie, forest, and alpine and glacial features.” The parks occupy a unique position in the Western Cordillera of North America, resulting in the evolution of species and ecologies that exist nowhere else in the world. </p>",
-        "Image": "images/Waterton-Glacier_International_Peace_Park.jpg"
+        "Image": "images/Waterton-Glacier_International_Peace_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -37,7 +39,8 @@
       "properties": {
         "Name": "MEDICINE ROCKS STATE PARK",
         "Description": "<p> Medicine Rocks State Park is full of history, culture, unique topography, and wonderfully dark skies. The park is also a haven for wildlife. They host dark sky events including star parties that incorporate discussions about light pollution and its effects on dark sky quality, animal and human life. </p>",
-        "Image": "images/Medicine_Rocks_State_Park.jpg"
+        "Image": "images/Medicine_Rocks_State_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -53,7 +56,8 @@
       "properties": {
         "Name": "MASSACRE RIM WILDERNESS STUDY AREA",
         "Description": "<p> Nestled between the Black Rock Desert-High Rock Canyon Emigrant Trails National Conservation Area (BRNCA) and the Sheldon National Wildlife Refuge (SNWR), the Massacre Rim Wilderness Study Area (WSA) is not only one of the darkest places in Nevada but also the contiguous United States. Its sheer remoteness offers protection from human populations and the associated light pollution: the two largest urban areas to Masscare Rim are located 150 miles to the south (Reno, Nevada) and 163 miles to the west (Redding, California). </p>",
-        "Image": "images/Massacre_Rim_Wilderness_Study_Area.jpg"
+        "Image": "images/Massacre_Rim_Wilderness_Study_Area.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -69,7 +73,8 @@
       "properties": {
         "Name": "DEATH VALLEY NATIONAL PARK",
         "Description": "<p> Death Valley National Park is distant enough from the large cities of the southwest so that much of the night sky above the desert floor is near pristine and, in many places, offers views close to what could be seen before the rise of cities. While Death Valley is comprised of rugged wilderness areas and is famous for its extreme climate, the night skies above the park are as fragile as the land below. The Park is largely free of its own sources of light pollution but the lights of distant Las Vegas and other cities have an impact on the park’s skies and desert nightlife. </p>",
-        "Image": "images/Death_Valley_National_Park.jpg"
+        "Image": "images/Death_Valley_National_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -85,7 +90,8 @@
       "properties": {
         "Name": "CENTRAL IDAHO",
         "Description": "<p> The Central Idaho Dark Sky Reserve is a region of 3,668 square kilometers (1,416 square miles) of remote and largely rugged lands in the Sawtooth Mountains of central Idaho, U.S.. The reserve has as its core parts of two recognized wilderness areas, and is situated in the spectacular scenery of the Sawtooth National Forest. In addition to the world-class skiing in the Sun Valley area, visitors come to the area for day hiking, backpacking, and horseback riding and accessed from 23 major trailheads. </p>",
-        "Image": "images/Central_Idaho.jpg"
+        "Image": "images/Central_Idaho.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -101,7 +107,8 @@
       "properties": {
         "Name": "GREAT BASIN NATIONAL PARK",
         "Description": "<p> Great Basin National Park is comprised of 31,230 hectares (77,180 acres) of U.S. federal lands centered on the eponymous Great Basin, a dry and mountainous region between the Sierra Nevada of California and the Wasatch Mountains of Utah, USA. Situated approximately 470 kilometers (290 miles) north of Las Vegas, Nevada, the Park protects stands of ancient bristlecone pine trees, the world’s oldest known non-clonal organisms, and the Lehman Caves at the base of 3,982-meter (13,063-foot) Wheeler Peak. The Highland Ridge Wilderness, lying just south of the Park, brings the total area of contiguous protected lands to 590.0 km2 (227.8 mi2) </p>",
-        "Image": "images/Great_Basin_National_Park.jpg"
+        "Image": "images/Great_Basin_National_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -117,7 +124,8 @@
       "properties": {
         "Name": "JOSHUA TREE NATIONAL PARK",
         "Description": "<p> Joshua Tree National Park is a U.S. national park sprawling over land that straddles the boundary of two deserts: the higher Mojave Desert and lower Colorado Desert. It protects crucial habitat for endemic species and hundreds of archaeological and historic sites. With respect to dark skies, the Park is in a virtually unique setting sandwiched between the “Inland Empire” metropolitan area of some 4 million inhabitants near its western edge, and the last pool of natural darkness remaining in Southern California in its eastern extremity. For residents of the greater Los Angeles area – some 18 million people as of 2015 – Joshua Tree National Park is the nearest convenient place to go stargazing under a relatively dark sky. While the western half of the Park is significant impacted by light from Palm Springs and, to a lesser extent, the cities of the nearby Morongo Basin, visitors who make the trek to the Park’s eastern wilderness area are rewarded with some of the darkest night skies left in the region. </p>",
-        "Image": "images/Joshua_Tree_National_Park.jpg"
+        "Image": "images/Joshua_Tree_National_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -133,7 +141,8 @@
       "properties": {
         "Name": "KETCHUM, IDAHO",
         "Description": "<p> The City of Ketchum is a municipality of about 2,750 inhabitants situated at an elevation of 1,784 m in the Wood River Valley of central Idaho, U.S. Founded during the area mining boom of the late nineteenth century, Ketchum’s economy now revolves largely around tourism focused on the region’s world-famous winter skiing conditions. The City also boasts an active arts and culture scene, and is increasingly seen as a regional retirement destination. </p>",
-        "Image": "images/Ketchum_Idaho.jpg"
+        "Image": "images/Ketchum_Idaho.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -149,7 +158,8 @@
       "properties": {
         "Name": "PRINEVILLE RESEVOIR STATE PARK",
         "Description": "<p> Prineville Reservoir State Park is a 118-hectare site in central Oregon, U.S., administered by the Oregon Department of Fish and Wildlife. It is situated on the shores of the eponymous Prineville Reservoir, created in 1961 for irrigation and flood control by damming of the Crooked River by the predecessor of the US Bureau of Reclamation. The Reservoir was in turn created by damming the Crooked River upstream from the nearby town of Prineville, flooding what was then a juniper- and sagebrush-filled canyon. The Reservoir runs 29 kilometers along the length of the Crooked River and functions primarily as an irrigation storage water body containing some 190 million cubic meters of water, with secondary objectives of Crooked River flood control and public recreation. The Park is surrounded by a 3,560-hectare property managed by the Bureau of Reclamation, which bounds the state park on all but one side. The water attracts a remarkable diversity of wildlife, and anglers enjoy excellent fishing opportunities on the Reservoir. </p>",
-        "Image": "images/Prineville_Reservoir_State_Park.jpg"
+        "Image": "images/Prineville_Reservoir_State_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -165,7 +175,8 @@
       "properties": {
         "Name": "ANZA-BORREGO DESERT STATE PARK",
         "Description": "<p> Anza-Borrego Desert State Park is state park in southern California, U.S. By land area, it is the country’s second-largest state park, after New York’s Adirondack State Park. The Park, itself the merger of two former constituent state parks, takes its name from both: 18th century Spanish explorer Juan Bautista de Anza, and Borrego, the Spanish word for the area’s bighorn sheep. A two-hour drive from San Diego, the Park is a component of the Mojave and Colorado Deserts UNESCO Biosphere Reserve and adjacent to the Santa Rosa and San Jacinto Mountains National Monument. </p>",
-        "Image": "images/Anza-Borrego_Desert_State_Park.jpg"
+        "Image": "images/Anza-Borrego_Desert_State_Park.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -181,7 +192,8 @@
       "properties": {
         "Name": "CITY OF ROCKS NATIONAL PRESERVE",
         "Description": "<p> City of Rocks National Reserve is located near the Utah/Idaho border in Cassia County, Idaho. The Park was established in 1988 to protect National Historic Landmark sites containing segments of the California Trail and Salt Alternate Trails/Kelton Road and to preserve the “scenic quality of the area.” The U.S. National Park Service and the Idaho Department of Parks and Recreation jointly manage the site. </p>",
-        "Image": "images/City_of_Rocks_National_Preserve.jpg"
+        "Image": "images/City_of_Rocks_National_Preserve.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -197,7 +209,8 @@
       "properties": {
         "Name": "JULIAN, CALIFORNIA",
         "Description": "<p> The town of Julian, California, is a small village near the center of San Diego County, California, U.S., with a population of about 1,000 inhabitants. First settled by Europeans in the mid-19th century, the area experienced a “gold rush” in the 1870s after the discovery of placer gold in 1869 followed shortly thereafter by hard-rock mining claims. Although the mines played out by the middle of the 20th century, the area has retained a small population based on a local economy of tourism and agriculture. Julian is known especially for its local apple variety, first cultivated in the area in the 1870s. </p>",
-        "Image": "images/Julian_California.jpg"
+        "Image": "images/Julian_California.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [
@@ -213,7 +226,8 @@
       "properties": {
         "Name": "LOST TRAIL NATIONAL WILDLIFE REFUGE",
         "Description": "<p> The Lost Trail National Wildlife Refuge is located in Pleasant Valley, nestled in the Salish Mountains of northwestern Montana, United States. The Refuge was established by the U.S. Fish and Wildlife Service (USFWS) in 1999 to mitigate wildlife habitat loss caused by the operation of Kerr Dam located to the southeast. The 9,225-acre Refuge provides foraging and nesting habitat for migratory birds and supports a diversity of flora and fauna, including moose, deer, elk, bears, wolves, and the protected Canadian lynx. The Refuge is home to 440 plant species, including the federally-threatened Spalding’s Catchfly plant. </p>",
-        "Image": "images/Lost_Trail_National_Wildlife_Refuge.jpg"
+        "Image": "images/Lost_Trail_National_Wildlife_Refuge.jpg",
+        "icon": "images/mapmarker.png"
       },
       "geometry": {
         "coordinates": [

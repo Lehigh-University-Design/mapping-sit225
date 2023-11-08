@@ -76,15 +76,21 @@
 				 
 				map.addLayer({
 				'id': 'pyramids-layer',
-				'type': 'circle',
+				'type': 'symbol',
 				'source': 'data',
+				'layout': {
+    				'icon-image': ['get', 'icon'], // Reference the "icon" property from your GeoJSON
+    				'icon-size': 2,
+    				'icon-allow-overlap': true
+				}
 				//this is for the map marker
-				'paint': {
-				'circle-radius': 3,
+				/* 'paint': {
+				'circle-radius': 5,
 				'circle-stroke-width': 1,
-				'circle-color': 'black',
+				'circle-color': '#fed094',
 				'circle-stroke-color': 'black'
 				}
+				*/
 				});
 			});
 
