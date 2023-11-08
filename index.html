@@ -41,22 +41,32 @@
 	    <script src="https://unpkg.com/scrollama"></script>
 
         <script>
+			const width = 400;
+			const height = 400;
+			const marginTop = 20;
+			const marginRight = 20;
+			const marginBottom = 30;
+			const marginLeft = 40;
+			const margin = ({top: 20, right: 150, bottom: 30, left: 50})
+
             async function loadData() {
-  			const response = await fetch('data/data.geojson', {
-				method: 'GET'
-			});
 
-  			const data = await response.json();
+  				const response = await fetch('data/data.geojson', {
+					method: 'GET'
+				});
 
-  			mapboxgl.accessToken = 'pk.eyJ1Ijoic2l0MjI1IiwiYSI6ImNsbm0xdTBrNjAxbWkya3B0dnVxZW43ZWQifQ.isUhDThT2oyoVTLtPClv_A';
-			const map = new mapboxgl.Map({
-				container: 'map', // container ID
-				style: 'mapbox://styles/sit225/clog3tbv3002w01p80qc19dq7', // style URL
-				center: [-110.717099, 43.666092], // starting position [lng, lat]
-				zoom: 10, // starting zoom
-				bearing: 27,
-				pitch: 45
-			});
+  				const data = await response.json();
+
+  				mapboxgl.accessToken = 'pk.eyJ1Ijoic2l0MjI1IiwiYSI6ImNsbm0xdTBrNjAxbWkya3B0dnVxZW43ZWQifQ.isUhDThT2oyoVTLtPClv_A';
+				const map = new mapboxgl.Map({
+					container: 'map', // container ID
+					style: 'mapbox://styles/sit225/clog3tbv3002w01p80qc19dq7', // style URL
+					center: [-110.717099, 43.666092], // starting position [lng, lat]
+					zoom: 10, // starting zoom
+					interactive: false,
+					bearing: 27,
+					pitch: 45
+				});
 
 			map.on('load', () => {
 				map.addSource('data', {
@@ -94,21 +104,43 @@
 			 	//var pid = item
 
 			 	// header
-			 	if(p.properties.Name) {
-				 	var header = document.createElement("h2");
-				 	//var node = document.createTextNode("Step "+pid);
-				 	var node = document.createTextNode(p.properties.Name);
+			 	if(p.properties.Title && p.properties.Image) {
+			 		var alt_media = document.createElement("div");
+			 		alt_media.classList.add("alt-media");
+			 		var header_holder = document.createElement("div");
+			 		header_holder.classList.add("header-holder");
+			 		var header = document.createElement("h2");
+				 	var node = document.createTextNode(p.properties.Title);
 				 	header.appendChild(node);
 				 	div.appendChild(header);
-			 	}
-
-			 	// image
-			 	if(p.properties.Image) {
-			 		var img = document.createElement("img");
+					header_holder.appendChild(header);
+				 	alt_media.appendChild(header_holder);
+			 		var image_holder = document.createElement("div");
+			 		image_holder.classList.add("image-holder");
+				 	var img = document.createElement("img");
 			 		img.src = p.properties.Image;
-			 		div.appendChild(img);
-			 	}
+					 image_holder.appendChild(img);
+			 		div.appendChild(alt_media);
+			 		alt_media.appendChild(image_holder);
+			 	} else {
 
+			 		// header
+				 	if(p.properties.Title) {
+					 	var header = document.createElement("h2");
+					 	//var node = document.createTextNode("Step "+pid);
+					 	var node = document.createTextNode(p.properties.Title);
+					 	header.appendChild(node);
+					 	div.appendChild(header);
+				 	}
+
+				 	// image
+				 	if(p.properties.Image) {
+				 		var img = document.createElement("img");
+				 		img.src = p.properties.Image;
+				 		div.appendChild(img);
+				 	}
+
+			 	}
 			 	// description
 			 	if(p.properties.Description) {
 			 		var description = document.createElement("div");
@@ -138,7 +170,7 @@
 			function handleResize() {
 				// 1. update height of step elements
 				var stepH = Math.floor(window.innerHeight * 0.75);
-				step.style("height", stepH + "px");
+				//step.style("height", stepH + "px");
 
 				var figureHeight = window.innerHeight;
 				var figureMarginTop = (window.innerHeight - figureHeight) / 2;
