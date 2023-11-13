@@ -120,6 +120,15 @@ figure {
   height: 100vh;
 }
 
+.marker {
+  &::after {
+    content: url('../images/mapmarker-01.svg');
+    display: block;
+    height: 4em;
+    width: 4em;
+  }
+}
+
 #masthead {
   right: 0;
   position: absolute;

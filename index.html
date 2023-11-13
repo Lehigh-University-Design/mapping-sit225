@@ -68,31 +68,11 @@
 					pitch: 45
 				});
 
-			map.on('load', () => {
-				map.addSource('data', {
-				type: 'geojson',
-				data: data
-				});
-				 
-				map.addLayer({
-				'id': 'pyramids-layer',
-				'type': 'symbol',
-				'source': 'data',
-				'layout': {
-    				'icon-image': ['get', 'icon'], // Reference the "icon" property from your GeoJSON
-    				'icon-size': 2,
-    				'icon-allow-overlap': true
-				}
-				//this is for the map marker
-				/* 'paint': {
-				'circle-radius': 5,
-				'circle-stroke-width': 1,
-				'circle-color': '#fed094',
-				'circle-stroke-color': 'black'
-				}
-				*/
-				});
-			});
+			for(const feature of data.features){
+				const el = document.createElement('div');
+				el.className = 'marker';
+				new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
+			}
 
 			map.scrollZoom.disable();
 
