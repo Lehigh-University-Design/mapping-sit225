@@ -69,6 +69,33 @@ a:hover {
   font-size: 1.25em;
 }
 
+#additional-article{
+  width: 100vw;
+  height: 125vh;
+  display: flex;
+  background-color: #000000;
+  color: #fed094;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#additional-article h2{
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0 em;
+}
+
+#additional-article p{
+  font-size: 1.25em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);

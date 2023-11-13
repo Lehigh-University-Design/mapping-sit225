@@ -12,19 +12,64 @@
 
         <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
 	    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' />
+		<style>
+			.fade-in {
+            	opacity: 0;
+            	animation: fadeIn 2s ease-in-out forwards;
+        	}
+
+        	@keyframes fadeIn {
+            	from {
+                	opacity: 0;
+            	}
+
+            	to {
+                	opacity: 1;
+            	}
+        	}
+
+			.fade-in2 {
+            	opacity: 0;
+            	animation: fadeIn 8s ease-in-out forwards;
+        	}
+
+        	@keyframes fadeIn {
+            	from {
+                	opacity: 0;
+            	}
+
+            	to {
+                	opacity: 1;
+            	}
+        	}
+		</style>
     </head>
 
     <body class="scrolly-body">
         <main>
             <section id="intro">
                 <div class="inner">
-                    <h1>The Stars at Night</h1>
-                    <p>An exploration of the night sky</p>
+                    <h1 class="fade-in">The Stars at Night</h1>
+                    <p class="fade-in">An exploration of the night sky</p>
                 </div>
             </section>
 
-            <section id="scrolly">
 
+			<section id="additional-article">
+				<div class="inner">
+					<h2 class ="fade-in2">Bortle Scale</h2>
+					<p class="fade-in2">The Bortle Scale is a numerical classification system used by astronomers and stargazers to assess the level of light pollution at a specific location. Developed by John E. Bortle, the scale ranges from Class 1, indicating pristine dark sky conditions with minimal light pollution, to Class 9, representing heavily light-polluted urban areas where only the moon and a few bright stars are visible. Each class provides a qualitative description of the sky's darkness, aiding observers in selecting optimal locations for stargazing and astrophotography. The scale considers factors such as the visibility of celestial objects, sky glow, and the impact of artificial lights on the night sky, offering a valuable tool for enthusiasts seeking the best conditions to appreciate the beauty of the cosmos.</p>
+				</div>
+			</section>
+
+			<section id="additional-article">
+				<div class="inner">
+					<h2 class ="fade-in2">Light Pollution</h2>
+					<p class="fade-in2">Light pollution, the excessive or misdirected artificial light in urban areas, obscures the natural beauty of the night sky and diminishes our ability to observe celestial wonders. In densely populated regions, the glow from streetlights, buildings, and other sources can drown out the stars and celestial objects. However, in contrast to the urban glow, night sky parks offer a refuge for stargazers seeking the unobstructed beauty of the cosmos. These designated dark-sky areas, often located in remote regions with minimal artificial light, provide a pristine environment for witnessing the true brilliance of the night sky. Under the canopy of darkness in night sky parks, one can marvel at the intricate patterns of constellations, the luminosity of the Milky Way, and the subtle dance of meteors, allowing for a profound connection with the vastness of the universe.</p>
+				</div>
+			</section>
+
+            <section id="scrolly">
                 <figure>
                     <div id="map"></div>
                 </figure>
@@ -68,6 +113,7 @@
 					pitch: 45
 				});
 
+				
 			for(const feature of data.features){
 				const el = document.createElement('div');
 				el.className = 'marker';
@@ -76,6 +122,7 @@
 
 			map.scrollZoom.disable();
 
+	
   			for (const item in data.features) {
 
 			 	//console.log(`${data}: ${data.features[item].id}`);
