@@ -57,7 +57,7 @@ a:hover {
   align-items: center;
   text-align: center;
 
-  background: url(/images/background.jpg);
+  background: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
